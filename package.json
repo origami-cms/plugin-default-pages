@@ -1,0 +1,22 @@
+{
+  "name": "origami-plugin-default-pages",
+  "version": "1.0.1",
+  "description": "Default pages for the Origami platform",
+  "main": "build/index.js",
+  "repository": "https://github.com/origami-cms/plugin-default-pages",
+  "author": "Tristan Matthias <hello@tristanmathias.com>",
+  "license": "MIT",
+  "typings": "build/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "origami-core-lib": "^0.3.9",
+    "origami-core-server": "^0.3.3"
+  },
+  "devDependencies": {
+    "tslint": "^5.9.1",
+    "tslint-config-origami": "^1.0.3",
+    "typescript": "^2.8.3"
+  }
+}
