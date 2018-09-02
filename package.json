@@ -11,8 +11,7 @@
     "build": "tsc"
   },
   "dependencies": {
-    "origami-core-lib": "^0.3.9",
-    "origami-core-server": "^0.3.3"
+    "origami-core-lib": "^0.3.9"
   },
   "devDependencies": {
     "tslint": "^5.9.1",

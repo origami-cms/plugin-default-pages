@@ -1,5 +1,4 @@
 import {Origami, Renderer, Route} from 'origami-core-lib';
-import Server from 'origami-core-server';
 import path from 'path';
 
 const index: Origami.Server.RequestHandler = async (req, res, next) => {
@@ -32,7 +31,7 @@ export interface Options {
     static?: string;
 }
 
-module.exports = (server: Server, opts: Options = {}) => {
+module.exports = (server: any, opts: Options = {}) => {
     server.useRouter(new Route('*')
         .position('pre-send')
         .get(index)
