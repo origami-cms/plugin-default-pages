@@ -8,7 +8,7 @@
   "license": "MIT",
   "typings": "build/index.d.ts",
   "scripts": {
-    "prebuild": "cp node_modules/origami-zen/origami-zen.js static/zen.min.js",
+    "prebuild": "cp node_modules/origami-zen/dist/zen.js static/zen.min.js",
     "build": "tsc"
   },
   "dependencies": {
