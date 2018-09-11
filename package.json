@@ -15,9 +15,8 @@
     "origami-core-lib": "^0.3.13-alpha.7"
   },
   "devDependencies": {
-    "origami-zen": "^0.4.1",
+    "origami-zen": "^0.4.3-alpha.2",
     "tslint": "^5.9.1",
-    "tslint-config-origami": "^1.0.3",
     "typescript": "^2.8.3"
   }
 }

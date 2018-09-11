@@ -527,9 +527,9 @@ origami-core-lib@^0.3.13-alpha.7:
     jsonwebtoken "^8.3.0"
     marked "^0.3.6"
 
-origami-zen@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/origami-zen/-/origami-zen-0.4.1.tgz#f1bd67f8a107bb4231f0041bbba2a574370cac01"
+origami-zen@^0.4.3-alpha.2:
+  version "0.4.3-alpha.2"
+  resolved "https://registry.yarnpkg.com/origami-zen/-/origami-zen-0.4.3-alpha.2.tgz#443a99569b85e58e4bc8ab66ff21bac160030a9d"
 
 os-homedir@^1.0.0:
   version "1.0.2"
