@@ -6,7 +6,6 @@ const index: Origami.Server.RequestHandler = async (req, res, next) => {
 
     let file;
     let data;
-    console.log(req.originalUrl);
 
 
     switch (req.originalUrl) {
