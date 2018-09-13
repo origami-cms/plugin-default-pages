@@ -7,6 +7,9 @@ const index: Origami.Server.RequestHandler = async (req, res, next) => {
     let file;
     let data;
 
+    // If it's a API request or the req is not HTML, next()
+    if (req.originalUrl.startsWith('/api') || !req.accepts('text/html')) return next();
+
 
     switch (req.originalUrl) {
         case '/':
